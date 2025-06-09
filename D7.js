@@ -193,10 +193,10 @@ const movies = [
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
 
-const nFilm = function (Film) {
-  Film.length;
-  console.log(nFilm);
-};
+const nFilm = movies.findIndex((film) => {
+  console.log(movies.length);
+  return film.length;
+});
 
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
