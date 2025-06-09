@@ -201,7 +201,10 @@ const nFilm = function (Film) {
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
-
+const titoli = movies.map((film) => {
+  console.log(film.Title);
+  return film.Title;
+});
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
